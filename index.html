@@ -30,6 +30,29 @@
 
         <a-entity camera></a-entity>
     </a-scene>
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/8.2.3/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="https://www.gstatic.com/firebasejs/8.2.3/firebase-analytics.js"></script>
+
+<script>
+  // Your web app's Firebase configuration
+  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+  var firebaseConfig = {
+    apiKey: "AIzaSyDaMRE5O9Q49ycLkqolPYyb8aLX60voppA",
+    authDomain: "culture2021-inovacao.firebaseapp.com",
+    projectId: "culture2021-inovacao",
+    storageBucket: "culture2021-inovacao.appspot.com",
+    messagingSenderId: "333865762387",
+    appId: "1:333865762387:web:6d57ab7f816e804e4710a6",
+    measurementId: "G-4J9EK61GP5"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+  firebase.analytics();
+</script>
 </body>
 
 </html>
